@@ -1,0 +1,82 @@
+<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+<link rel="icon" href="favicon.ico">
+<title>マインスイイイイイアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアア</title>
+<link rel="stylesheet" media="screen" href="https://cpwebassets.codepen.io/assets/fullpage/fullpage-9a6f5ffcc359b81b95df109e4b8ce436f472f4f828fcc75227cd5266125d459b.css" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<style>
+html { font-size: 30px; }
+html, body { margin: 0; padding: 0; min-height: 10%; }
+body { height:100%; display: flex; flex-direction: column; }
+.referer-warning {
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+padding: 0.75em;
+text-align: center;
+font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, system-ui, Sans-Serif;
+line-height: 1.2;
+font-size: 1rem;
+position: relative;
+z-index: 2;}
+.referer-warning span { font-family: initial; }
+.referer-warning h1 { font-size: 1.9rem; margin: 0; }
+.referer-warning a { color: #56bcf9; }
+body {
+background-size: cover;
+background-attachment: fixed;
+background-position: center center;}
+</style>
+<script>
+document.body.style.backgroundImage = 'url(m.gif)';
+</script>
+<body class="">
+<div id="result-iframe-wrap" role="main">
+<iframe
+id="result"
+srcdoc="<!DOCTYPE html>
+<html lang=&quot;en&quot; >
+<head>
+<meta charset=&quot;UTF-8&quot;>
+<meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;CodePen&quot;>
+<title>CodePen - HTML_Minesweeper_Min</title>
+<script>
+window.console = window.console || function(t) {};
+</script>
+<script>
+document.body.style.backgroundImage = 'url(m.gif)';
+</script>
+</head>
+<body translate=&quot;no&quot;>
+<body><input id=W style='display: none;' type=number required value=9 min=8 max=70>
+<input id=H style='display: none;' type=number required value=9 min=8 max=25>
+<input id=M style='display: none;' type=number required value=9min=9>
+<input type=button style='display: none;' value=Start onclick=S()>
+<p id=p>
+<table id=t style=&quot;border:solid;border-collapse:collapse&quot;>
+<script>window.onload=S=function(){if(R(W))W.value=9;if(R(H))H.value=9;M.max=((w=W.value)-1)*((h=H.value)-1);if(R(M))M
+.value=10;m=f=z=M.value;s=performance.now();T();for(i=t.rows.length;i-->0;t.
+deleteRow(0));a=new Array(h);for(i=h;i-->0;){a[i]=new Array(w);r=t.insertRow(0)
+;for(j=w;j-->0;){d=r.insertCell(o=a[i][j]=0);[d.w,d.h,d.style]=[j,i,&quot;width:120&quot;+
+&quot;px;height:24px;border:solid;text-align:center;cursor:default&quot;];d.onclick=
+function(){if(!V()||this[v].match(&quot;[#-8]&quot;))return;if(!o)do if(a[y=(Math.random(
+)*h)|0][x=(Math.random()*w)|0]<1&amp;&amp;(Math.abs(this.w-x)>1||Math.abs(this.h-y)>1)
+&amp;&amp;z--)a[y][x]=1;while(z);if(!a[this.h][this.w])N(this);else if(f=&quot;負けだああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&quot;)for(i=h
+;i-->0;)for(j=w;j-->0;)if(a[i][j])t.rows[i].cells[j][v]=&quot;※&quot;};d.oncontextmenu=
+function(){if(V()&amp;&amp;!this[v].match(&quot;[*-8]&quot;))if(!this[v]&amp;&amp;f-->0)this[v]=&quot;#&quot;;else
+if(++f)this[v]=&quot;&quot;;return !1}}}};T=()=>((p[v=&quot;innerHTML&quot;]=((k=((e=((performance.
+now()-s)/1e3)|0)/60)|0)
+<10?&quot;0&quot;:&quot;&quot;)+k+((l=e%60)
+<10?&quot;:0&quot;:&quot;:&quot;)+l+(+f>=f?&quot; #&quot;:&quot; &quot;)+
+f)&amp;&amp;V())?setTimeout(T):0;V=()=>+f>=f;R=r=>!r.reportValidity();function N(c){if(
+!c||c[v].match(&quot;[*-8]&quot;))return;c.style.background=&quot;red&quot;;if(~c[v].indexOf(&quot;#&quot;)
+&amp;&amp;f++)T();if(!(c[v]=(a[y=c.h][(x=c.w)-1]>0)+(a[y][x+1]>0)+(y>0&amp;&amp;a[y-1][x-1]>0)+
+(y>0&amp;&amp;a[y-1][x]>0)+(y>0&amp;&amp;a[y-1][x+1]>0)+(y<h-1&amp;&amp;a[y+1][x-1]>0)+(y<h-1&amp;&amp;a[y+1][x
+]>0)+(y<h-1&amp;&amp;a[y+1][x+1]>0))&amp;&amp;(c[v]=&quot;-&quot;))for(c.i=9;c.i-->0;)if(c.i!=4)N(((X=c.w
++1-(c.i/3|0))>=0)*((Y=c.h+1-c.i%3)>=0)*(X<w)*(Y<h)>0?t.rows[Y].cells[X]:0);if(
+++o>=w*h-m)f=&quot;勝ちだああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ&quot;}
+</script>
+</body>
+</html>
+"sandbox="allow-forms allow-modals allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-downloads allow-presentation" allow="accelerometer; ambient-light-sensor; camera; display-capture; encrypted-media; geolocation; gyroscope; microphone; midi; payment; vr; web-share" allowTransparency="true"
+allowpaymentrequest="true" allowfullscreen="true" class="result-iframe">
+</iframe>
+</div>
+<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
